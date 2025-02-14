@@ -1236,7 +1236,7 @@ async def on_message(message: discord.Message):
         elif text == "lol_i_have_dmed_the_cat_bot_and_got_an_ach":
             await message.channel.send('which part of "send in server" was unclear?')
         else:
-            await message.channel.send('good job! please send "lol_i_have_dmed_the_cat_bot_and_got_an_ach" in server to get your ach!')
+            await message.channel.send('good job! please send `lol_i_have_dmed_the_cat_bot_and_got_an_ach` in server to get your ach!')
         return
 
     perms: discord.Permissions = message.channel.permissions_for(message.guild.me)
